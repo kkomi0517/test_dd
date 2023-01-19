@@ -1,0 +1,66 @@
+
+        body {background-image: url(../img/dark-wood.jpg);
+            background-position: center;
+            margin: 0 1.4em;
+            color:#666;}
+        .wrapper{border: 2px solid #000;
+        width: 940px;
+        margin: 20px auto;
+            background-color: #fff; }
+
+        header { 
+            height: 160px;
+            background-image: url(../img/header.jpg);
+        }
+
+        h1{color:red; 
+            text-indent: -99999px;
+        width: 940px; height: 130px;
+        margin: 0;}
+        nav, footer { background-color: #aeaca8;
+        height: 30px; clear: both;
+        
+    }
+        nav ul { margin: 0; padding: 5px 0px 5px 30px;}
+        nav li{ display: inline-block; margin-right: 40px;}
+        nav li a {color: #ccc; text-decoration: none;}
+        nav li a:hover , nav li a.current {color: #000;}
+        section.courses {width: 659px;
+        /* border: 5px dashed orange; */
+        float: left;}
+        article{
+            /* border: 2px dotted green; */
+            width: 100%;
+            overflow: auto;
+            clear: both;
+        }
+        figure{
+        float: left;
+        border: 1px solid #eee;
+        width: 290px;
+        height: 220px;
+        padding: 5px;
+        margin: 20px;}
+        figcaption{
+        font-size: 90%;
+        text-align: center;}
+        aside{
+            /* background-color: skyblue; */
+            float: left;
+            width: 230px;
+            padding: 0px 0px 0px 20px;
+        }
+        aside section a {
+            display: block;
+            border-bottom: 1px solid #eee;
+            padding: 10px;
+        }
+        a {color: #de6581;
+        text-decoration: none;}
+        aside section a:hover { 
+            color: #985d6a;
+            background-color: #efefef;
+        }
+
+        h2,h3 {color: #de6581;}
+        footer{font-size: 80%; padding: 7px 0px 0px 20px;}
